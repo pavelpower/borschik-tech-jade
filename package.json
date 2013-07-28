@@ -1,0 +1,19 @@
+{
+    "name": "borschik-tech-jade",
+    "version": "0.0.1",
+    "description": "jade tech for borschik",
+    "author": {
+        "name": "Akhmetchanov Pavel (pavelpower)",
+        "email": "pavel-power@yandex.ru"
+    },
+    "bugs": {
+        "url": "https://github.com/pavelpower/borschik-tech-jade/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pavelpower/borschik-tech-jade.git"
+    },
+    "peerDependencies": {
+        "borschik": "0.3.x"
+    }
+}
