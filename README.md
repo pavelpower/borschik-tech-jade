@@ -9,7 +9,7 @@ Format for insert file
 //- borschik:include:./content.jade
 
 ```
-==How use?
+## How use?
 
 Install borschik in project
 ```javascript
