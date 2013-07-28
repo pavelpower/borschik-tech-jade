@@ -21,7 +21,7 @@ Check:
 ls ./node_modules | grep borschik # exists it is ok!
 ```
 
-And you can call:
+And you can run:
 ```bash
 # -t = tech
 # -i = path to file input
