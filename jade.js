@@ -14,7 +14,7 @@ exports.Tech = INHERIT(base.Tech, {
             var rgx, _this, uniqStr, res = [], t, i;
 
             _this = this;
-            rgx = /^(\s*)\/\/-\s*borschik:include:\s*(.*)$/gim;
+            rgx = /^(\s*)include\s*(.*)$/gim;
             uniqStr = '\00borschik\00';
 
             if (Buffer.isBuffer(content))
@@ -25,7 +25,7 @@ exports.Tech = INHERIT(base.Tech, {
                     .replace(rgx, function(_, space, file) {
                         includes.push({
                             file: _this.pathTo(file),
-                            space: space
+                            space: space.replace('\n','')
                         });
                         return uniqStr;
                     })
