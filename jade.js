@@ -24,7 +24,7 @@ exports.Tech = INHERIT(base.Tech, {
                 texts = content
                     .replace(rgx, function(_, space, file) {
                         includes.push({
-                            file: _this.pathTo(file),
+                            file: _this.pathTo(file.trim().replace('.jade', '') + '.jade'),
                             space: space.replace('\n','')
                         });
                         return uniqStr;
