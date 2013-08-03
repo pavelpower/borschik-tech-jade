@@ -7,6 +7,8 @@ Format for insert file
 ```jade
 
 include ./content.jade
+// or
+include ./footer
 
 ```
 ## How use?
@@ -45,7 +47,7 @@ html(lang="en")
             include ./content.jade
 
         #footer
-            include ./footer_content.jade
+            include ./footer_content
 ```
 
 
