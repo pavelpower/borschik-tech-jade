@@ -6,7 +6,7 @@ jade plagin for borschik
 Format for insert file
 ```jade
 
-//- borschik:include:./content.jade
+include ./content.jade
 
 ```
 ## How use?
@@ -42,10 +42,10 @@ html(lang="en")
     body
         h1 Jade - node template engine
         #container.col
-            //- borschik:include:./content.jade
+            include ./content.jade
 
         #footer
-            //- borschik:include:./footer_content.jade
+            include ./footer_content.jade
 ```
 
 
